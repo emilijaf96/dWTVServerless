@@ -7,7 +7,7 @@ const AUTH_HEADER = 'Basic NGRmMjg2YzItYTNjMC00ZmFkLTgwN2UtMDY0MzcyMjc4MzA4OmxpZ
 
 // This is the endpoint where the wsk tool sent your request to get
 // the package details.
-const URL = 'https://openwhisk.ng.bluemix.net/api/v1/namespaces/DougCo_dev/actions/Bluemix_dougdb_dougkey/create-document';
+const URL = 'https://openwhisk.ng.bluemix.net/api/v1/namespaces/whisk.system/actions/Bluemix_Cloudant-de_Service%20credentials-de/create-document';
 
 // 8080 may not be your favorite number, but Cloud Foundry insists on it.
 const port = 8080;
